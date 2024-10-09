@@ -71,8 +71,7 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
-TICKY_PRO_DS: ${{ secrets.TICKY_PRO_DS }}
-TICKY_STARTER_DS: ${{ secrets.TICKY_STARTER_DS }}
+NUXT_UI_PRO_TICK: ${{ secrets.NUXT_UI_PRO_TICK }}
 
       # Deployment job
       - name: Deploy 🚀
